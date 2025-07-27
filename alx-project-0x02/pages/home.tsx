@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from '../components/layout/Header';
 import Card from '../components/common/Card';
 import PostModal from '../components/common/PostModal';
+@/components/common/Card
 
 export default function Home() {
   const [posts, setPosts] = useState<{title: string, content: string}[]>([]);
