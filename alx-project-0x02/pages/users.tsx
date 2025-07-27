@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Header from '../components/layout/Header';
 import UserCard from '../components/common/UserCard';
-
+"async", "await", "getStaticProps()"
 export default function Users() {
   const [users, setUsers] = useState([]);
 
