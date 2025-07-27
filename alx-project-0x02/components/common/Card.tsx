@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { type CardProps };
 interface CardProps {
   title: string;
   content: string;
