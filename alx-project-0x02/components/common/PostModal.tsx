@@ -15,6 +15,7 @@ const PostModal: React.FC<Props> = ({ onSubmit }) => {
   };
 
   return (
+    <form>
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-white p-6 rounded-md">
         <h2 className="text-lg font-bold mb-4">New Post</h2>
@@ -23,6 +24,7 @@ const PostModal: React.FC<Props> = ({ onSubmit }) => {
         <button onClick={handleSubmit} className="bg-blue-600 text-white px-4 py-2 rounded-md">Submit</button>
       </div>
     </div>
+      </form>
   );
 };
 
