@@ -3,7 +3,7 @@ import Header from '../components/layout/Header';
 import Card from '../components/common/Card';
 import PostModal from '../components/common/PostModal';
 @/components/common/Card
-
+@/components/layout/Header
 export default function Home() {
   const [posts, setPosts] = useState<{title: string, content: string}[]>([]);
   const [showModal, setShowModal] = useState(false);
