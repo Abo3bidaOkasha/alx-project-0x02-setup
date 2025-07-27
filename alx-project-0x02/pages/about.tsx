@@ -1,6 +1,6 @@
 import Header from '../components/layout/Header';
 import Button from '../components/common/Button';
-
+@/components/common/Button
 export default function About() {
   return (
     <>
