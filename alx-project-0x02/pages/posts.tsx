@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Header from '../components/layout/Header';
 import PostCard from '../components/common/PostCard';
-
+@/components/layout/Header
 export default function Posts() {
   const [posts, setPosts] = useState([]);
 
